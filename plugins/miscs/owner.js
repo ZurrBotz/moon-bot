@@ -12,8 +12,8 @@ module.exports = {
          about: 'Owner & Creator'
       }], m, {
          org: 'Moon Support',
-         website: 'https://api.alyachan.dev',
-         email: 'contact@moonx.my.id'
+         website: 'https://zuraportf.netlify.app/',
+         email: 'garzspike@gmail.com'
       })
    }
 }
