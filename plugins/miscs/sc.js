@@ -9,7 +9,7 @@ module.exports = {
       Func
    }) => {
       try {
-         let json = await Func.fetchJson('https://api.github.com/repos/rifnd/moon-bot')
+         let json = await Func.fetchJson('https://api.github.com/repos/ZurrBotz/moon-bot')
          let capt = `乂  *S C R I P T*\n\n`
          capt += `   ∘  *Name* : ${json.name}\n`
          capt += `   ∘  *Size* : ${(json.size / 1024).toFixed(2)} MB\n`
@@ -21,7 +21,7 @@ module.exports = {
          capt += global.footer
          conn.sendMessageModify(m.chat, capt, m, {
             largeThumb: true,
-            url: 'https://github.com/rifnd/moon-bot'
+            url: 'https://github.com/ZurrBotz/moon-bot'
          })
       } catch (e) {
          console.log(e)
